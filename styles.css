@@ -1,0 +1,27 @@
+body {
+     border: 20px solid purple;
+}
+
+.header {
+    border: 12px solid red; 
+    background-color: #1f2937;
+}
+
+.top-head {
+    border: 12px solid goldenrod; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+     border: 12px solid blue; 
+}
+
+.quote-section {
+     border: 12px solid yellow; 
+}
+
+.footer {
+     border: 12px solid green; 
+}
