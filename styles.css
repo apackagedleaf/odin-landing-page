@@ -5,11 +5,10 @@ body {
 }
 
 .header {
-    border: 12px solid red; 
     display: flex;
     flex-direction: column;
-    margin-right: 140px;
-    margin-left: 140px;
+    padding-left: 140px;
+    padding-right: 140px;
     }
 
 .header-container { 
@@ -46,14 +45,12 @@ body {
 }
 
 .logo{
-    border: 12px solid;
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
 }
 
 .links{
-    border: 12px solid;
     font-size: 18px;
     display: flex;
 }
@@ -81,7 +78,7 @@ li {
 .sub-text {
 	font-size: 18px;
 	color: #e5e7eb;
-    padding-bottom: 8px;
+    padding: 16px 0px;
 }
 
 button{
@@ -97,10 +94,30 @@ button{
 
 
 
-
-
 .content {
-     border: 12px solid blue; 
+    text-align: center;
+    padding: 25px 300px; /* 1st number is top/bottom, 2nd is left/right */
+    display: flex;
+    flex-direction: column;
+}
+
+.content-header{
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border: 6px solid #3882f6;
+    border-radius: 12px;
 }
 
 .quote-section {
