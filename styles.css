@@ -1,5 +1,4 @@
 body {
-     border: 20px solid purple;
      display: flex;
      flex-direction: column;
 }
@@ -7,15 +6,14 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding: 0 140px;
     }
 
 .header-container { 
     color: #fff;
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .top-head {
@@ -28,7 +26,7 @@ body {
 .hero-container{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 48px;
+    margin-bottom: 96px;
 }
 
 .subtext-container{
@@ -40,7 +38,7 @@ body {
 .header-image{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex: auto;
 }
 
@@ -81,7 +79,7 @@ li {
     padding: 16px 0px;
 }
 
-button{
+.hero-button{
     border-radius: 4px;
     background-color: #3882f6;
     color: white;
@@ -90,6 +88,7 @@ button{
     padding: 8px 24px;
     font-size: 16px;
     font-weight: bolder;
+    width: 125px;
 }
 
 
@@ -109,7 +108,7 @@ button{
 
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 64px;
 }
 
@@ -120,10 +119,70 @@ button{
     border-radius: 12px;
 }
 
+.content-image{
+    width: 200px;
+}
+
 .quote-section {
-     border: 12px solid yellow; 
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column; 
+    padding: 50px 300px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.small-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.call-to-action{
+    margin: 96px;
+    color: #F9FAF8;
+}
+
+.call-container{
+    background-color: #3882f6;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-head{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-text{
+
+}
+
+.call-button{
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    padding: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 125px;
 }
 
 .footer {
-     border: 12px solid green; 
+     background-color: #1F2937;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #f9faf8;
+     padding: 32px;
 }
